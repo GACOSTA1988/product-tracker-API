@@ -1,24 +1,27 @@
-# README
+# Product Tracker API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### This API allows you to view, create, update, or delete products stored in the database.
 
-Things you may want to cover:
+#### By George Acosta
 
-* Ruby version
+## Specifications
 
-* System dependencies
+1. This program will let users add, update and delete new products.
 
-* Configuration
 
-* Database creation
+## Setup/Installation Requirements
 
-* Database initialization
+* Open terminal and run rails s while in the projects root directory.
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## Technologies Used
 
-* Deployment instructions
+1. ruby
+2. rspec
+3. Devise
 
-* ...
+
+
+### License
+
+Copyright (c) 2016 **_George Acosta_**
