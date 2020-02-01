@@ -16,9 +16,9 @@ class ProductsController < ApplicationController
   # POST /products
   def create
     @product = Product.new(product_params)
-    binding.pry
+
     if @product.save
-      render json: @product, status: :created
+      render json: @product, status: :created, location: @product
     else
       render json: @product.errors, status: :unprocessable_entity
     end
